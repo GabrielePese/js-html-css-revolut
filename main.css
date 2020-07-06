@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* STRISCIA GRIGIA TOP */
+
+.container{
+  padding: 0 5%;
+
+}
+
+.row{
+  background-color: #cccccc;
+
+}
+.barra-grigio{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.top1 ul{
+  display: flex;
+  align-items: center;
+
+}
+
+.top1 ul li{
+  padding-right: 20px;
+  list-style: none;
+}
+
+.top1 ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/* NAVBAR */
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+
+}
+
+
+.navbar .logo img{
+  height: 30px;
+  width: 70px;
+}
+
+.navbar .menu{
+  padding-right: 200px;
+}
+
+.navbar .menu ul{
+  display: flex;
+}
+
+.navbar .menu ul li{
+  padding-right: 30px;
+  list-style: none;
+}
+
+.navbar .menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.scarica a{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color:white;
+
+}
