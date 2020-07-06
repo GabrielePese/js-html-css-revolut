@@ -70,10 +70,11 @@
 
 .navbar .menu ul li{
 position: relative;
+
 }
 
 .navbar .menu .spazio{
-  padding-right: 30px;
+  padding-right: 50px;
   list-style: none;
 }
 
@@ -84,6 +85,10 @@ position: relative;
 
 .navbar .menu ul li a:hover{
     color:black;
+}
+
+.navbar .menu .spazio li{
+  padding: 12px 0;
 }
 /* PARTE PER IL DROPDOWN MENU */
 
@@ -113,9 +118,17 @@ position: relative;
 .active{
   display: block;
 }
-/* .hidden{
-  display: none;
-} */
+#jun{
+  position: relative;
+}
+.new{
+  color: blue;
+  font-size: 10px;
+  font-weight: bold;
+  position:absolute;
+  top:0;
+  left: 50px;
+}
 /* BOTTONE SCARICA */
 
 .scarica a{
