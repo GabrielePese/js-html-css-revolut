@@ -54,7 +54,6 @@
 
 }
 
-
 .navbar .logo img{
   height: 30px;
   width: 70px;
@@ -112,8 +111,10 @@ position: relative;
 }
 .dropdown ul li {
   list-style: none;
-  padding: 5px;
+}
 
+.dropdown ul li a {
+  padding-left: 15px;
 }
 .active{
   display: block;
