@@ -37,10 +37,9 @@
 
 .top1 ul li a{
     text-decoration: none;
-    color:#cccccc;
+    color:#7a7d82;
 }
 .top1 ul li a:hover{
-
     color:black;
 }
 
@@ -80,9 +79,12 @@ position: relative;
 
 .navbar .menu ul li a {
   text-decoration: none;
-  color: ##F3F4F5;
+  color: #7a7d82;
 }
 
+.navbar .menu ul li a:hover{
+    color:black;
+}
 /* PARTE PER IL DROPDOWN MENU */
 
 .hidden{
@@ -94,7 +96,8 @@ position: relative;
   top: 30px;
   left: -10px;
   width: 200px;
-  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 1px #e8e6e1;
 }
 
 .dropdown ul{

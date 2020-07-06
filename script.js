@@ -1,11 +1,11 @@
 
   $(document).ready(function() {
     $(".spazio").mouseenter(function () {
-      $(this).children(".dropdown").addClass("active")
+      $(this).children().addClass("active")
   });
 
   $(".spazio").mouseleave(function () {
-    $(this).children(".dropdown").removeClass("active")
+    $(this).children().removeClass("active")
 });
 
 
