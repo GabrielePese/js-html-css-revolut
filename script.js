@@ -8,5 +8,4 @@
     $(this).children().removeClass("active")
 });
 
-
 });

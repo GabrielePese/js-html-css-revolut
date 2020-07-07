@@ -63,15 +63,17 @@ body{
 }
 
 .navbar .menu{
-  padding-right: 200px;
+  padding-right: 50px;
 }
 
 .navbar .menu ul{
   display: flex;
+
 }
 
 .navbar .menu ul li{
 position: relative;
+
 
 }
 
@@ -100,9 +102,9 @@ position: relative;
 .dropdown{
   display: none;
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: -10px;
-  width: 100%;
+  width: 350px;
   border-radius: 5px;
   box-shadow: 2px 2px 3px 1px #e8e6e1;
   background-color: white;
@@ -119,6 +121,7 @@ position: relative;
 
 .dropdown ul li a {
   padding-left: 15px;
+  /* padding-right: 15px; */
 }
 .active{
   display: block;
