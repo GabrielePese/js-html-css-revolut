@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: 20px;
+}
 /* STRISCIA GRIGIA TOP */
 
 .container{
@@ -16,9 +19,9 @@
 
 }
 .barra-grigio{
+  display: flex;
   height: 80px;
   width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 
@@ -26,7 +29,6 @@
 
 .top1 ul{
   display: flex;
-  align-items: center;
 
 }
 
@@ -42,6 +44,7 @@
 .top1 ul li a:hover{
     color:black;
 }
+
 
 
 
@@ -102,6 +105,7 @@ position: relative;
   width: 250px;
   border-radius: 5px;
   box-shadow: 2px 2px 3px 1px #e8e6e1;
+  background-color: white;
 }
 
 .dropdown ul{
@@ -138,4 +142,92 @@ position: relative;
   background-color: black;
   color:white;
   text-decoration: none;
+}
+
+
+/* JUMBO */
+
+.jumbo{
+  margin-top: 150px;
+}
+
+.jumbo p{
+  color:#7a7d82;
+}
+.jumbo .sx{
+  float:left;
+  width: 50%;
+}
+.jumbo .sx h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+.jumbo .sx p{
+  margin-top: 25px;
+  line-height: 1.5;
+  padding-right: 50px;
+}
+.jumbo .dx{
+  float:left;
+  width: 50%;
+}
+
+.form{
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prefisso{
+  border-top:none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #7a7d82;
+  width: 15%;
+
+}
+
+.prefisso i{
+  padding-left: 30px;
+}
+
+.numero{
+  margin-left: 30px;
+  width: 40%;
+  font-size: 16px;
+  color:#7a7d82;
+  border-bottom: 1px solid #7a7d82;
+
+}
+
+.numero input{
+  border-top:none;
+  border-right: none;
+  border-left: none;
+
+}
+
+.tasto-inizia{
+  margin-left: 30px;
+  width: 30%;
+}
+.tasto-inizia a{
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: black;
+  color:#7a7d82;
+  text-decoration: none;
+
+}
+.apriconto{
+  margin-top: 40px;
+}
+.apriconto span{
+  color:black;
+  font-size: 17px;
+}
+
+.destra img{
+  width: 45vw;
+  height: 490px;
 }
