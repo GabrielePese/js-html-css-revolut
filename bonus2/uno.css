@@ -6,6 +6,7 @@
 
 body{
   font-size: 20px;
+    /* overflow: hidden; */
 }
 /* STRISCIA GRIGIA TOP */
 
@@ -58,8 +59,8 @@ body{
 }
 
 .navbar .logo img{
-  height: 30px;
-  width: 70px;
+  height: auto;
+  max-width: 70px;
 }
 
 .navbar .menu{
@@ -238,8 +239,8 @@ position: relative;
 }
 
 .destra img{
-  width: 45vw;
-  height: 490px;
+  max-width: 45vw;
+  height: auto;
 }
 
 .bottone-menu{
@@ -296,7 +297,7 @@ position: relative;
     background-color: white;
     height: 87vh;
     width: 100vw;
-    overflow: scroll;
+    overflow-y: scroll;
     padding-bottom: 15vh;
   }
 
