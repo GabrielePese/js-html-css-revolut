@@ -109,7 +109,8 @@ position: relative;
   position: absolute;
   top: 20px;
   left: -10px;
-  width: 350px;
+  min-width: 150px;
+  padding: 0 12px;
   border-radius: 5px;
   box-shadow: 2px 2px 3px 1px #e8e6e1;
   background-color: white;
@@ -296,12 +297,23 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 2% 5%;
-    color: #adadad
-    position:relative;
+    color: #adadad;
+    flex-direction: column;
+  }
+
+  .cont1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .freccia i{
     color:#adadad
+  }
+
+  .titolo{
+    color:black
   }
 
 
@@ -310,50 +322,118 @@ footer{
 
 
   .dropdown1{
-    position: absolute;
+    display: block;
     top:50px;
     z-index: 1;
     display: none;
     width: 100vw;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px 1px #e8e6e1;
+    padding-top: 20px;
+
   }
   .dropdown2{
-
+    display: block;
     display: none;
     top: 50px;
     left: 0px;
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px 1px #e8e6e1;
+    padding-top: 20px;
+
   }
   .dropdown3{
-
+    display: block;
     display: none;
     top: 50px;
     left: 0px;
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px 1px #e8e6e1;
+    padding-top: 20px;
+
   }
   .dropdown4{
-
+    display: block;
     display: none;
     top: 50px;
     left: 0px;
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px 1px #e8e6e1;
+
   }
   .dropdown5{
-
+    display: block;
     display: none;
     top: 250px;
     left: 0px;
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px 1px #e8e6e1;
+    padding-top: 20px;
   }
+
+  .dropdown1 ul{
+    padding: 0 5%;
+  }
+  .dropdown1 ul li{
+
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown1 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
+  .dropdown2 ul{
+    padding: 0 5%;
+  }
+  .dropdown2 ul li{
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown2 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
+
+  .dropdown3 ul{
+    padding: 0 5%;
+  }
+  .dropdown3 ul li{
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown3 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
+  .dropdown4 ul{
+    padding: 0 5%;
+  }
+  .dropdown4 ul li{
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown4 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
+  .dropdown5 ul{
+    padding: 0 5%;
+  }
+  .dropdown5 ul li{
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown5 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
+hr{
+  margin: 20px 5%;
+  color: #cccfcd;
+  opacity: 0.5;
+
+}
+
 
 /* .dropdown ul{
   display: block;

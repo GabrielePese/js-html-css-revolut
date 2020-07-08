@@ -25,19 +25,19 @@ $(".freccia").click(function(){
 
 });
 $(".freccia2").click(function(){
-  $(this).children().toggleClass ("active")
+  $(".dropdown2").toggleClass ("active")
 
 });
 $(".freccia3").click(function(){
-  $(this).children().toggleClass ("active")
+  $(".dropdown3").toggleClass ("active")
 
 });
 $(".freccia4").click(function(){
-  $(this).children().toggleClass ("active")
+  $(".dropdown4").toggleClass ("active")
 
 });
 $(".freccia5").click(function(){
-  $(this).children().toggleClass ("active")
+  $(".dropdown5").toggleClass ("active")
 
 });
 });
