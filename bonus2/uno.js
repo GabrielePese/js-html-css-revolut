@@ -13,11 +13,13 @@
 
 $(".bottone-menu").click(function(){
   $(".menu2").toggleClass ("active")
+  $("footer").toggleClass ("hidden")
 });
 
-// $(".close").click (function(){
-//   $(".menu2").removeClass ("active")
+// $(".bottone-menu").click(function(){
+//   $(".menu2").append(<footer></footer>)
 // });
+
 
 
 $(".freccia").click(function(){
