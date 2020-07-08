@@ -40,4 +40,16 @@ $(".freccia5").click(function(){
   $(".dropdown5").toggleClass ("active")
 
 });
+$(".freccia6").click(function(){
+  $(".dropdown6").toggleClass ("active")
+
+});
+$(".freccia7").click(function(){
+  $(".dropdown7").toggleClass ("active")
+
+});
+$(".freccia8").click(function(){
+  $(".dropdown8").toggleClass ("active")
+
+});
 });

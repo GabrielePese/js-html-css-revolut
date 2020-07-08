@@ -364,6 +364,30 @@ footer{
     width: 100%;
     padding-top: 20px;
   }
+  .dropdown6{
+    display: block;
+    display: none;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .dropdown7{
+    display: block;
+    display: none;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .dropdown8{
+    display: block;
+    display: none;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    padding-top: 20px;
+  }
 
   .dropdown1 ul{
     padding: 0 5%;
@@ -427,6 +451,42 @@ footer{
     text-decoration: none;
   }
 
+  .dropdown6 ul{
+    padding: 0 5%;
+  }
+  .dropdown6 ul li{
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown6 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
+  .dropdown7 ul{
+    padding: 0 5%;
+  }
+  .dropdown7 ul li{
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown7 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
+  .dropdown8 ul{
+    padding: 0 5%;
+  }
+  .dropdown8 ul li{
+    list-style: none;
+    padding: 10px 0;
+  }
+  .dropdown8 ul li a {
+    color: #adadad;
+    text-decoration: none;
+  }
+
 hr{
   margin: 20px 5%;
   color: #cccfcd;
@@ -434,17 +494,6 @@ hr{
 
 }
 
-
-/* .dropdown ul{
-  display: block;
-}
-  .dropdown ul li {
-    list-style: none;
-  }
-
-  .dropdown ul li a {
-    padding-left: 15px;
-  } */
 
    footer{
     display: flex;
